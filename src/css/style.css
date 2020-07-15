@@ -62,12 +62,15 @@ color: #FFFFFF;
 }
 .container-galery{
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    margin: 20px;
-    margin-bottom: 50px;
+    margin: 0 5% ;
+    
+  
 }
 .content-galery{
     display: flex;
+    margin-bottom: 10%;
 }
 .container-galery h2{
     font-size: 35px ;
@@ -77,22 +80,34 @@ color: #FFFFFF;
     letter-spacing: 6px;
     color: #06122C;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
+    margin-bottom: 4%;
+   
+}
+.section-collaborators h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 37px;
+margin-top: 7%;
+letter-spacing: 4.28571px;
+color: #06122C;
 }
 .content-galery img{
-width: 150px;
-height: 150px;
+width: 160px;
+height: 160px;
 }
 .panellist article{
-    width: 40%;
-    height: 250Px;
-    padding: 20px;
-    text-align: center;
+width: 40%;
+height: 250Px;
+padding: 20px;
+text-align: center;
 }
 
 
 .content-galery h3{
- font-family: Poppins;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 text-transform: uppercase;
@@ -103,12 +118,13 @@ color: #F6C746;
 
 }
 .content-galery span{
-    color: #06122C;
+line-height: 34px; 
+color: #06122C;
     
 }
 .content-galery p{
     
-font-family: Poppins;
+font-family: 'Poppins';
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -117,11 +133,11 @@ text-align: center;
 color: #06122C;
 }
 .content-galery span{
-    text-transform: uppercase;
-    font-weight: bold;
+text-transform: uppercase;
+ font-weight: bold;
 }
 .collaborators{
-    justify-content: center;
+ justify-content: center;
 }
 .collaborators article{
     width: 20%;
@@ -140,7 +156,7 @@ footer{
 
 .footer-main{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #06122C;
     width: 75%;
     height: 200px;
@@ -158,33 +174,11 @@ footer{
   
   
 }
-.content-footer-main{
-    width: 25%;
-    padding: 10px;
-  
-    text-align: center;
 
-}
 .line{
     border-right: solid 1px rgb(54, 53, 53);
 
 }
-
-.footer-main p{
-    
-font-family: Poppins;
-font-style: normal;
-font-weight: 300;
-font-size: 25px;
-text-transform: uppercase;
-line-height: 37px;
-text-align: center;
-color: #FFFFFF;
-padding: 10px;
-
-}
-  
-    
 
 .container-social-networks{
     height: 150px;
@@ -196,14 +190,89 @@ padding: 10px;
    
 }
  
-
 .container-social-networks a{
     margin-top: 65px;
-   
     margin-left: 20px;
 }
 .redes , .icono-mind{
     margin-top: 90px;
+}
+/* estyle cuenta regresiva */
+/* ? ----- Cuenta Regresiva ----- */
+#cuenta {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.simply-section {
+
+	width: 180px;
+	height: 180px;
+	margin: 0 20px;
+    margin-top: -18px;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    border-right: solid 1px rgb(54, 53, 53);
+}
+.simply-section:nth-child(4) {
+ border: none;
+}
+
+.simply-amount {
+    color:#F6C746 ;
+    font-size:  15px; 
+    font-weight: 600;
+    font-size: 100px;
+   line-height: 150px;
+}
+
+.simply-word {
+display: block;
+font-family: 'Poppins';
+font-style: normal;
+text-transform: uppercase;
+color: white;
+font-weight: 300;
+font-size: 25px;
+line-height: 37px;
+}
+
+
+/* ? ---------------------------- */
+
+.simply-section{
+    text-align: center;
+    flex-direction: row;
+    /* padding: 0 60px 0;
+    border-right: solid 1px rgb(54, 53, 53); */
+}
+.time{
+    color:#F6C746 ;
+    font-size:  100px; 
+    font-weight: 600;
+    font-size: 100px;
+   line-height: 150px;
+}
+.label{
+display: block;
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 37px;
+
+
+
+text-align: center;
+
+color: #FFFFFF;
+    
+}
+.bg{
+    
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 

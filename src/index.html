@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Webinar</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
     <section>
@@ -56,21 +57,24 @@
         <span>universidad católica</span>
     </article>
 </div>
-<h2>Colaboradores</h2>
-<div class="content-galery collaborators">
-    
-    <article>
-        <img src="./images/yerko.png" alt="">
-        <h3>yerko <span>halat</span></h3>
-        <p>Gerente Comercial en</p>
-        <span>mind comsultoría</span>
-    </article>
-    <article>
-        <img src="./images/italo.png" alt="">
-        <h3>Italo <span>Parada</span></h3>
-        <p>Consultor en </p>
-        <span>mind comsultoría</span>
-    </article>
+
+   <div class="section-collaborators">
+    <h2>Colaboradores</h2>
+    <div class="content-galery collaborators">
+        <article>
+            <img src="./images/yerko.png" alt="">
+            <h3>yerko <span>halat</span></h3>
+            <p>Gerente Comercial en</p>
+            <span>mind comsultoría</span>
+        </article>
+        <article>
+            <img src="./images/italo.png" alt="">
+            <h3>Italo <span>Parada</span></h3>
+            <p>Consultor en </p>
+            <span>mind comsultoría</span>
+        </article>
+    </div>
+</div>
 
 </div>
      
@@ -78,15 +82,9 @@
    
     <footer>
 
-        <div class="footer-main">
-        <div class="content-footer-main line">
-            <div class="number"></div>
-            <p>dias</p>
-        </div>
-        <div class="content-footer-main line"> <p>horas</p> </div>
-        <div class="content-footer-main line"> <p> minutos</p> </div>
-        <div class="content-footer-main"> <p>segundos</p> </div>    
-    </div>
+      <div class="footer-main" id="countdown">
+                 
+    </div> 
         
         
        <div class="container-social-networks">
@@ -98,5 +96,8 @@
       
      
     </footer>
+    <!-- <script src="./js/jquery/jquery.min.js"></script> -->
+    <script src="./js/simplyCountdown.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

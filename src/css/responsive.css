@@ -1,0 +1,13 @@
+
+@media screen and (min-width:320px) and (max-width: 767px){
+
+    .collaborators, .content-galery, .footer-main{
+        flex-direction: column;
+    }
+    .footer-main{
+        border: none;
+
+    }
+
+}
+    
