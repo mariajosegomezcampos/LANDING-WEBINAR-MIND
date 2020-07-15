@@ -1,13 +1,98 @@
 
 @media screen and (min-width:320px) and (max-width: 767px){
 
-    .collaborators, .content-galery, .footer-main{
-        flex-direction: column;
-    }
-    .footer-main{
-        border: none;
 
+
+.logo-icono{
+    display: block;
+    
+}
+.logos{
+    max-width: 100%;
+    height: 120px;
+  
+}
+.facultad{
+    width: auto;
+    padding: 0;
+    height: 50px;
+    
+}
+.title {
+    margin: 0;
+}
+.logo-icono img {
+    width: 38%;
+    margin: 50% 58%;
+    position: absolute;
+
+}
+
+.title img {
+    max-width: 81%;
+    margin-left: 7%;
+    margin-top: 20%;
+}
+.text {
+    margin-left: 5%;
+    margin-top: 70%;
+    width: 84%;
+    margin-left: 5%;
+    padding: 5.2rem 0;
+}
+    .text p {
+    font-size: 15px;
+    line-height: 25px;
+       
     }
+    .content-logos{
+      width: auto;
+      margin: 0 auto;
+      justify-content: space-around;
+    } 
+
+    .content-logos img{    
+    width: 100px;
+    padding: 0;
+    margin: 0;
+   
+    }
+   
+     .collaborators, .content-galery, .footer-main{
+    flex-direction: column;
+    }  
+    .section-panellist h2  , .section-collaborators h2{
+    font-size: 20px;
+    margin-top: 0;
+    }
+  
+    .footer-main{
+    width: auto;
+    height: auto;
+    margin: 0;
+    bottom: 0;
+    position: relative;
+    border-radius: 0;
+    border-bottom: none;
+    padding: 50px;
+    }
+    .facultadd{
+    padding: 10px;
+    }
+    .simply-section {
+    border: none;
+    }
+    .container-social-networks{
+    margin: 0;
+    }
+    .text img{
+    width: 70%;
+    }
+    .panellist article ,.collaborators article{
+    width: auto;     
+    margin: 8% ; 
+
+        } 
 
 }
     

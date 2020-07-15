@@ -39,6 +39,9 @@
    
     
 }
+.logo-icono{
+    display: none;
+}
 .section-main{
    
     background-image: url(../images/imagemain.png);
@@ -64,15 +67,16 @@ color: #FFFFFF;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 0 5% ;
+    margin: 0 3% ;
+    padding: 60px 0;
     
   
 }
 .content-galery{
     display: flex;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
-.container-galery h2{
+.section-panellist h2{
     font-size: 35px ;
     font-family:'Poppins' ;
     font-weight: normal;
@@ -88,22 +92,31 @@ color: #FFFFFF;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: normal;
+text-align: center;
 font-size: 25px;
 line-height: 37px;
-margin-top: 7%;
+margin-bottom: 4%;
 letter-spacing: 4.28571px;
 color: #06122C;
 }
 .content-galery img{
 width: 160px;
 height: 160px;
+margin: 5%;
 }
 .panellist article{
-width: 40%;
-height: 250Px;
-padding: 20px;
+width: 45%;
+height: auto; 
+padding: 5px;
 text-align: center;
 }
+.collaborators article{
+   
+ width: 25%;
+height: auto; 
+padding: 5px;
+text-align: center;
+} 
 
 
 .content-galery h3{
@@ -139,12 +152,7 @@ text-transform: uppercase;
 .collaborators{
  justify-content: center;
 }
-.collaborators article{
-    width: 20%;
-    height: 250Px;
-    padding: 20px;
-    text-align: center;
-}
+
 footer{
     width: 100%;
   
@@ -242,38 +250,7 @@ line-height: 37px;
 
 /* ? ---------------------------- */
 
-.simply-section{
-    text-align: center;
-    flex-direction: row;
-    /* padding: 0 60px 0;
-    border-right: solid 1px rgb(54, 53, 53); */
-}
-.time{
-    color:#F6C746 ;
-    font-size:  100px; 
-    font-weight: 600;
-    font-size: 100px;
-   line-height: 150px;
-}
-.label{
-display: block;
-font-family: Poppins;
-font-style: normal;
-font-weight: 300;
-font-size: 25px;
-line-height: 37px;
 
-
-
-text-align: center;
-
-color: #FFFFFF;
-    
-}
-.bg{
-    
-    background-color: rgba(0, 0, 0, 0.75);
-}
 
 
  
