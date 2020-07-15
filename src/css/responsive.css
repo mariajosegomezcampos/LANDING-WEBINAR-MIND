@@ -2,7 +2,11 @@
 @media screen and (min-width:320px) and (max-width: 767px){
 
 
+.section-main{
+    background-image: none;
+    background-color: #06122C;
 
+}
 .logo-icono{
     display: block;
     
@@ -21,25 +25,29 @@
 .title {
     margin: 0;
 }
+
+
 .logo-icono img {
-    width: 38%;
-    margin: 50% 58%;
+    width: 100%;
+    
     position: absolute;
-
 }
-
 .title img {
     max-width: 81%;
-    margin-left: 7%;
-    margin-top: 20%;
+    padding: 20% 0;
+    /* margin-left: 7%; */
+    margin-top: px;
 }
 .text {
     margin-left: 5%;
-    margin-top: 70%;
+    /* margin-top: 70%; */
     width: 84%;
     margin-left: 5%;
-    padding: 5.2rem 0;
+    padding: 32rem 0px 60px 0px;
+    position: relative;
 }
+
+
     .text p {
     font-size: 15px;
     line-height: 25px;
@@ -74,7 +82,7 @@
     position: relative;
     border-radius: 0;
     border-bottom: none;
-    padding: 50px;
+    padding: 50px 50px 0;
     }
     .facultadd{
     padding: 10px;
