@@ -96,6 +96,9 @@
     .text img{
     width: 70%;
     }
+    .title-none, .text-none{
+        display: none;
+    }
     .panellist article ,.collaborators article{
     width: auto;     
     margin: 8% ; 

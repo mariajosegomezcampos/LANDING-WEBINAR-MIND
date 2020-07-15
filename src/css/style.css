@@ -1,3 +1,256 @@
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logos{
+    max-width: 63.5%;
+    display: flex;
+    background-color: #0C295B;
+    border-bottom-right-radius: 80px 80px;
+    
+}
+.content-logos{
+    display: flex;
+    margin-left: 15%;
+    padding: 1.2rem 0;
+}
+.content-logos img{
+    padding:  0 1.2rem ;
+}
+.divisions{
+    border-right: solid 1px white;
+}
+.title {
+    margin: 80px;
+}
+.title img{
+    max-width: 51%;
+
+    margin-left: 7%;
+}
+.text{
+    width: 64%;
+    margin-left: 13%;
+    padding: 5.2rem 0;
+   
+    
+}
+.logo-icono{
+    display: none;
+}
+.section-main{
+   
+    background-image: url(../images/imagemain.png);
+    background-repeat: no-repeat ;
+    background-size:cover;
+}
+
+
+.text p{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 40px;
+color: #FFFFFF;
+
+}
+.text img{
+  margin-left: 35%;
+}
+.container-galery{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 3% ;
+    padding: 60px 0;
+    
+  
+}
+.content-galery{
+    display: flex;
+    margin-bottom: 5%;
+}
+.section-panellist h2{
+    font-size: 35px ;
+    font-family:'Poppins' ;
+    font-weight: normal;
+    line-height: 52px;
+    letter-spacing: 6px;
+    color: #06122C;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 4%;
+   
+}
+.section-collaborators h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: normal;
+text-align: center;
+font-size: 25px;
+line-height: 37px;
+margin-bottom: 4%;
+letter-spacing: 4.28571px;
+color: #06122C;
+}
+.content-galery img{
+width: 160px;
+height: 160px;
+margin: 5%;
+}
+.panellist article{
+width: 45%;
+height: auto; 
+padding: 5px;
+text-align: center;
+}
+.collaborators article{
+   
+ width: 25%;
+height: auto; 
+padding: 5px;
+text-align: center;
+} 
+
+
+.content-galery h3{
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+text-transform: uppercase;
+font-size: 25px;
+line-height: 37px;
+letter-spacing: 0.0139884px;
+color: #F6C746;
+
+}
+.content-galery span{
+line-height: 34px; 
+color: #06122C;
+    
+}
+.content-galery p{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #06122C;
+}
+.content-galery span{
+text-transform: uppercase;
+ font-weight: bold;
+}
+.collaborators{
+ justify-content: center;
+}
+
+footer{
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.footer-main{
+    display: flex;
+    justify-content: space-around;
+    background-color: #06122C;
+    width: 75%;
+    height: 200px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    position: absolute;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    margin-bottom: -80px;
+    padding: 20px;
+    border: solid 1px rgb(54, 53, 53);
+    border-bottom: none;
+  
+  
+}
+
+.line{
+    border-right: solid 1px rgb(54, 53, 53);
+
+}
+
+.container-social-networks{
+    height: 150px;
+    background-color: #06122C;
+    display: flex;
+    margin-top: 18%;
+  
+    justify-content: center;
+   
+}
+ 
+.container-social-networks a{
+    margin-top: 65px;
+    margin-left: 20px;
+}
+.redes , .icono-mind{
+    margin-top: 90px;
+}
+/* estyle cuenta regresiva */
+/* ? ----- Cuenta Regresiva ----- */
+/* #cuenta {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.simply-section {
+
+	width: 180px;
+	height: 180px;
+	margin: 0 20px;
+    margin-top: -18px;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    border-right: solid 1px rgb(54, 53, 53);
+}
+.simply-section:nth-child(4) {
+ border: none;
+}
+
+.simply-amount {
+    color:#F6C746 ;
+    font-size:  15px; 
+    font-weight: 600;
+    font-size: 100px;
+   line-height: 150px;
+}
+
+.simply-word {
+display: block;
+font-family: 'Poppins';
+font-style: normal;
+text-transform: uppercase;
+color: white;
+font-weight: 300;
+font-size: 25px;
+line-height: 37px;
+}
+
+viejo
+? ---------------------------- */ 
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
